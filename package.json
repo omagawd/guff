@@ -19,7 +19,7 @@
     "framework",
     "modular"
   ],
-  "author": "hmues",
+  "author": "omagawd",
   "license": "MIT",
   "types": "./dist/index.d.ts",
   "bugs": {
