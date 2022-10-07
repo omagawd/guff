@@ -4,9 +4,10 @@
   "description": "A really cook Discord Bot for Guffo's server",
   "main": "dist/index.js",
   "scripts": {
-    "start": "node .",
     "build": "npx tsc",
     "watch": "npx tsc -w",
+    "format": "npx eslint --fix & npx prettier --write ./**/*.ts",
+    "start": "node .",
     "dev": "npx nodemon src/index.ts"
   },
   "repository": {
