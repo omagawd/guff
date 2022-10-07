@@ -2,8 +2,10 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "editor.tabSize": 2,
   "eslint.rules.customizations": [
     { "rule": "*", "severity": "warn" }
   ],
-  "eslint.validate": ["typescript"]
+  "eslint.validate": ["typescript"],
+  "files.eol": "\n"
 }
